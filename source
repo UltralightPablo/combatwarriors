@@ -189,14 +189,14 @@ local Window = Rayfield:CreateWindow({
 	},
         Discord = {
         	Enabled = True,
-        	Invite = "ePNHdqhwPn", -- The Discord invite code, do not include discord.gg/
-        	RememberJoins = false -- Set this to false to make them join the discord every time they load it up
+        	Invite = "zsuHWTJeCD", -- The Discord invite code, do not include discord.gg/
+        	RememberJoins = true -- Set this to false to make them join the discord every time they load it up
         },
 	KeySystem = false, -- Set this to true to use our key system
 	KeySettings = {
 		Title = "Saint Pablo Hub",
 		Subtitle = "Key System",
-		Note = "Join the discord for the free key! (discord.gg/ePNHdqhwPn)",
+		Note = "Join the discord for the free key! (https://discord.gg/zsuHWTJeCD)",
 		FileName = "Pablo Hub Key",
 		SaveKey = true,
 		GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
@@ -276,7 +276,7 @@ local Section = Tab2:CreateSection("Main")
 local Label = Tab2:CreateLabel("Combat Warriors Hub Created By: SaintPablo#7379")
 local Section = Tab2:CreateSection("Contributors")
 local Label = Tab2:CreateLabel("Auto/Anti Parry Created By: ydnac#2110")
-local Label = Tab2:CreateLabel("Weapon Hitbox Expander Created By: Zomboss#7008")
+local Label = Tab2:CreateLabel("Weapon Hitbox Expander Created By: Edgar Zomboss#7008")
 local Label = Tab2:CreateLabel("Anti Cheat Bypass Created By: Wyv#0001")
 
 local Section = Tab3:CreateSection("Discord")
@@ -284,7 +284,7 @@ local Label = Tab3:CreateLabel("Check out our other scripts and request more gam
 local Button = Tab3:CreateButton({
 	Name = "Copy Discord Invite",
 	Callback = function()
-		toClipboard("discord.gg/ePNHdqhwPn")
+		toClipboard("https://discord.gg/zsuHWTJeCD")
 	end,
 })
 
